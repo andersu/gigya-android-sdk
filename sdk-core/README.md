@@ -90,10 +90,11 @@ The SDK will implicitly initialize itself according to one of the following:
 You can add a JSON file named "gigyaSdkConfiguration.json" to your application assets folder.
 This will allow the SDK to parse the required configuration fields (ApiKey, ApiDomain, etc) implicitly.
 ```json
-"apiKey":"YOUR-API-KEY-HERE",
-"apiDomain": "YOUR-API-DOMAIN-HERE",
-"accountCacheTime": 1,
-"sessionVerificationInterval": 60
+{
+  "apiKey":"YOUR-API-KEY-HERE",
+  "apiDomain": "YOUR-API-DOMAIN-HERE",
+  "accountCacheTime": 1,
+  "sessionVerificationInterval": 60
 }
 ```
 
